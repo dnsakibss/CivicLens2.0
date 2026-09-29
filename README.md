@@ -1,4 +1,7 @@
 # 🏛️ CivicLens 2.0
+   <div align="center">
+     <img src="docs/civiclens-2-overview.svg" width="100%" alt="CivicLens 2.0 overview" />
+   </div>
 
 > A civic complaint management and community news platform built with C# Windows Forms and SQL Server — empowering citizens to report issues and enabling authorities to respond effectively.
 
