@@ -9,7 +9,7 @@
 
 ## 📌 About
 
-**CivicLens** is a desktop application that bridges the gap between citizens and local authorities. Citizens can submit complaints about civic issues (infrastructure, safety, public services, etc.), track their resolution, and engage with a community newsfeed. Authorities across multiple roles — Admin, Moderator, Police, and Journalist — each get a tailored dashboard to manage, investigate, and report on those issues.
+**CivicLens** is a desktop application that bridges the gap between citizens and local authorities. Citizens can submit complaints about civic issues (infrastructure, safety, public services, etc.), track their resolution, and engage with a community newsfeed. Authorities across multiple roles: Admin, Moderator, Police, and Journalist. Each get a tailored dashboard to manage, investigate, and report on those issues.
 
 **CivicLens 2.0** is a major solo update with a fully redesigned UI, real-time per-complaint chat, media attachment support, a paginated newsfeed with comments, expanded role system, and significant admin tooling improvements.
 
@@ -40,7 +40,7 @@
 - View own profile: full name, email, phone, address, role, registration date, approval date
 - Edit profile details (name, email, phone, address)
 - Change password via a dedicated Update Password form
-- Schema-adaptive profile loader — gracefully handles variations in column names (e.g. `Address` vs `AddressLine`)
+- Schema-adaptive profile loader - gracefully handles variations in column names (e.g. `Address` vs `AddressLine`)
 
 ### 🏠 Role-Based Dashboard
 
@@ -71,15 +71,15 @@ Every user lands on a shared Dashboard that shows a personalised welcome message
 - Grid view of all complaints submitted by the logged-in citizen
 - Columns: ID, Title, Category, Status, Date
 - Search/filter by title, status, or category
-- **View** button — opens complaint detail in read-only mode
-- **Edit** button — opens complaint detail in editable mode (citizen can update title, description, priority)
+- **View** button - opens complaint detail in read-only mode
+- **Edit** button - opens complaint detail in editable mode (citizen can update title, description, priority)
 - Grid refreshes automatically after a successful edit
 
 ### 🔍 Complaint Detail & Timeline
 
 - Displays all complaint metadata: title, category, priority, status, location, description, creation date
-- **Media gallery** — loads and displays all attached media files
-- **Full status timeline** — shows every status change with old status, new status, note, who changed it, and when
+- **Media gallery** - loads and displays all attached media files
+- **Full status timeline** - shows every status change with old status, new status, note, who changed it, and when
 - Edit mode: allows updating title, description, and priority (status and location are always read-only)
 
 ---
@@ -89,8 +89,8 @@ Every user lands on a shared Dashboard that shows a personalised welcome message
 - Full grid of all complaints in the system
 - Filters: keyword search (title/status), category dropdown, status dropdown
 - **"Only Unassigned"** checkbox — narrows list to `New` or `Pending` complaints
-- **View** button — opens read-only complaint detail
-- **Assign** button — opens the assignment dialog
+- **View** button - opens read-only complaint detail
+- **Assign** button - opens the assignment dialog
 
 #### Complaint Assignment
 
