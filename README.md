@@ -20,6 +20,7 @@
 | Version | Repository |
 |---|---|
 | CivicLens (v1) | [github.com/firojkoraishisourov/CivicLens](https://github.com/firojkoraishisourov/CivicLens) |
+| CivicLens (v1) | [github.com/dnsakibss/CivicLens](https://github.com/dnsakibss/CivicLens) |
 | CivicLens 2.0 | *(this repository)* |
 
 ---
